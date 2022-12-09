@@ -1,19 +1,22 @@
 # Viktoryia Miatsiolkina
-___
+____
 ## Contacts
 - Location: Poznan, Poland
 - Phone: +48 571 079 049
 - Email: ligwa@mail.ru
 - GitHub: WikkiMets
-___
+
+____
 ## About Me
 Analyst in the field of logistics with 8 years' experience. I have high working capacity and analytical skills, able to work in multitasking mode and in a team, responsibly and seriously approach my work . After moving to another country, my goal is to gain knowledge on front-end development and successfully convert it into company development, income and personal growth.
-___
+
+____
 ## Skills
 - HTML/CSS
 - VS Code
 - Figma
 - Git/GitHub
+
 ___
 ## Code example
 ```javascript
@@ -31,6 +34,7 @@ ___
   - [GoIT](https://goit.global/pl/)
   - [Skillbox](https://skillbox.ru/course/programming-introduction-new-free/)
   - [RS Schools «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress)
+  
 ___
 ## Languages
 - Russian - naitive speaker
