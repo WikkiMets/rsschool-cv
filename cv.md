@@ -1,20 +1,20 @@
 # Viktoryia Miatsiolkina
----
+___
 ## Contacts
 - Location: Poznan, Poland
 - Phone: +48 571 079 049
 - Email: ligwa@mail.ru
 - GitHub: WikkiMets
----
+___
 ## About Me
-#### Analyst in the field of logistics with 8 years' experience. I have high working capacity and analytical skills, able to work in multitasking mode and in a team, responsibly and seriously approach my work . After moving to another country, my goal is to gain knowledge on front-end development and successfully convert it into company development, income and personal growth.
----
+Analyst in the field of logistics with 8 years' experience. I have high working capacity and analytical skills, able to work in multitasking mode and in a team, responsibly and seriously approach my work . After moving to another country, my goal is to gain knowledge on front-end development and successfully convert it into company development, income and personal growth.
+___
 ## Skills
 - HTML/CSS
 - VS Code
 - Figma
 - Git/GitHub
----
+___
 ## Code example
 ```javascript
 function multiply(a, b) {
@@ -23,15 +23,15 @@ function multiply(a, b) {
   return a * b;
 }
 ```
----
+___
 ## Education
 - Belarusian National University
   - Financial management, master's degree
 - Courses:
-  - [GoIT](https://m.goit.global/pl/?utm_source=google&utm_medium=cpc&utm_campaign=17380115250|135958449254|601444926235||go%20it%20polska&gclid=Cj0KCQiA1sucBhDgARIsAFoytUusejYnjMeF9PRx11sQwYft5j4luzBB_A-ZB9TWqKIOPLLJptnyd_saArPbEALw_wcB)
+  - [GoIT](https://goit.global/pl/)
   - [Skillbox](https://skillbox.ru/course/programming-introduction-new-free/)
   - [RS Schools «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) (in progress)
----
+___
 ## Languages
 - Russian - naitive speaker
 - English - A2
