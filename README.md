@@ -1,1 +1,1 @@
-https://WikkiMets.github.io/rsschool-cv/cv
+https://WikkiMets.github.io/rsschool-cv/
