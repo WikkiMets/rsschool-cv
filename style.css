@@ -1,7 +1,232 @@
-h1 {
-    color: green;
+html {
+    scroll-behavior: smooth;
 }
 
-p {
-    color: aquamarine;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #a8a4a4;
+    background-color: #363535;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+}
+
+.header {
+    background-color:#181a18
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+    padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .section-profile {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #63c295;
+    transition: .3s;
+}
+
+.main {
+    margin-bottom: auto;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 2px solid #181a18;
+}
+
+.section-profile-avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px #00000099;
+    transform: rotate(-35deg);
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-left: 150px;
+    text-transform: uppercase;
+}
+
+.section-title-name {
+    padding: 0;
+    margin-bottom: 20px;
+    color: #f5f1f1;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    line-height: 50px;
+    word-spacing: 2px;
+}
+
+.section-subtitle {
+    margin-top: 20px;
+    color: #63c295;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.section-title {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    color: #f5f1f1;
+}
+
+.section-list {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+
+.pre {
+    background-color: #a8a8a8;
+    padding: 0;
+    margin: 0;
+    font-size: 0.85rem;
+    color: #181a18;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 30px;
+}
+
+.section-item::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #63c295;
+    border-radius: 30%;
+
+}
+.section-item a {
+    text-decoration: none;
+    color: #63c295;
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
+    color: #a8a8a8;
+
+}
+
+.section-description {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.period {
+    color: #686666;
+}
+
+.footer {
+    background-color: #181a18;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #f5f1f1;
+}
+
+.github {
+    width: 30px;
+    height: 100%;
+    background-image: url(./assets/svg/icons8-github.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.telegram {
+    width: 30px;
+    height: 100%;
+    background-image: url(./assets/svg/icons8-telegram.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    width: 30px;
+    height: 100%;
+    background-image: url(./assets/svg/icons8-instagram.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rsschool {
+    width: 120px;
+    height: 45px;
+    background-image: url(./assets/svg/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
