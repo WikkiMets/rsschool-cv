@@ -3,9 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV</title>
+  <link rel="icon" href="./assets/icons8-vertcoin-50.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#codeexample" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="section-profile" id="profile">
+      <img src="./assets/img/photo.jpg" alt="my photo" class="section-profile-avatar">
+      <div class="section-profile-title">
+        <h1 class="section-title-name">Viktoryia Miatsiolkina</h1>
+        <h3 class="section-subtitle">Junior Front-End Developer</h3>
+      </div>
+    </section>
+    <section class="section" id="contacts">
+      <h2 class="section-title">Contacts</h2>
+      <ul class="section-list">
+        <li class="section-item">Location: Poznan, Poland</li>
+        <li class="section-item">Email: <a href="mailto:ligwa@mail.ru" title="email">ligwa@mail.ru</a></li>
+        <li class="section-item">GitHub: <a href="https://github.com/WikkiMets" title="github">WikkiMets</a></li>
+        <li class="section-item">Discord: <a href="https://discordapp.com/users/1049397960733118494/" title="discord">Ligwa#0841</a></li>
+        <li class="section-item">Telegram: <a href="https://t.me/ligwa" title="telegram">@ligwa</a></li>
+      </ul>
+    </section>
+    <section class="section" id="aboutme">
+      <h2 class="section-title">About me</h2>
+      <div class="section-list">
+      <p>
+        Analyst in the field of logistics with 8 years' experience. I have high working capacity and analytical skills, able to work in multitasking mode and in a team, responsibly and seriously approach my work . After moving to another country, my goal is to gain knowledge on front-end development and successfully convert it into company development, income and personal growth.
+      </p>
+    </div>
+    </section>
+    <section class="section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <ul class="section-list">
+        <li class="section-item">HTML/CSS</li>
+        <li class="section-item">VS Code</li>
+        <li class="section-item">Figma</li>
+        <li class="section-item">Git/GitHub</li>
+      </ul>
+    </section>
+    <section class="section" id="codeexample">
+      <h2 class="section-title">Code example</h2>
+      <div class="section-description">
+      <pre class="pre">
+        <code>
+          function multiply(a, b) {
+            if (undefined == a || undefined == b || isNaN(a) || isNaN(b))
+              throw new Error("Both arguments should be numbers");
+            return a * b;
+          }
+        </code>
+      </pre>
+    </div>
+    </section>
+    <section class="section" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="section-description">
+      <p>Belarussian National University</p>
+      <ul class="section-list">
+      <li class="section-item">Financial management, master's degree <span class="period">(September 2015 - March 2017)</span></li>
+      <li class="section-item">Business administration, bachelor's degree <span class="period">(September 2008 - June 2012)</span></li>
+      </ul>
+    </div>
+    </section>
+    <section class="section" id="courses">
+      <h2 class="section-title">Courses</h2>
+      <ul class="section-list">
+        <li class="section-item">GoIT - <a href="https://goit.global/pl/" title="goit">Marathon HTML/CSS/Figma</a></li>
+        <li class="section-item">Skillbox - <a href="https://skillbox.ru/course/programming-introduction-new-free/" title="skillbox">Introduction to programming</a></li>
+        <li class="section-item">RS School - <a href="https://rs.school/js-stage0/" title="rsschool">JavaScript/Front-end. Stage 0</a><span class="period">(in progress)</span></li>
+      </ul>
+    </section>
+    <section class="section" id="languages">
+      <h2 class="section-title">Languages</h2>
+      <ul class="section-list">
+        <li class="section-item">Russian - naitive speaker</li>
+        <li class="section-item">English - B1</li>
+        <li class="section-item">Polish - A2 <span class="period">(B1 - in progress)</span></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>
+        <a href="https://github.com/WikkiMets" class="github nav-link"></a>
+        <a href="https://t.me/ligwa" class="telegram nav-link"></a>
+        <a href="https://www.instagram.com/ligwa/" class="instagram nav-link"></a>
+      </div>
+      <p>&copy; 2022</p>
+      <a href="https://rs.school/js/" class="rsschool"></a>
+    </div>
+  </footer>
 </body>
 </html>
